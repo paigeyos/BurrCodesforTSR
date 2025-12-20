@@ -3234,7 +3234,7 @@ endingPicker = (out, totv, aa, quickstats) => {
     </tr>
     <tr>
       <td><h4>5<h4></td>
-      <td><img src="https://i.imgur.com/o3OEhZw.png" alt="Howard" style="width:60px;"></td>
+      <td><img src="https://i.imgur.com/k6u84sm.png" alt="Howard" style="width:60px;"></td>
       <td><a href="https://en.wikipedia.org/wiki/John_Eager_Howard">John E. Howard</a></td>
       <td>1817–1825</td>
       <td>Federalist</td>
@@ -3254,7 +3254,7 @@ endingPicker = (out, totv, aa, quickstats) => {
     <img src="https://i.imgur.com/rjlEFmJ.png" alt="Old Faithful" style="width:695px;height:236px;">
 
 
-    <p><h5>The Capitol Building, 1806</h
+    <p><h5>The Capitol Building, 1806</h5></p>
 
     <p>July 4th, 1806. Aaron Burr is fatally wounded by a gunshot while exiting the Capitol Building after giving an address to the House of Representatives. He is the first president to die in office and the first president to be assassinated.</p>
 
@@ -3262,7 +3262,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 
     <p>The Constitution has no specification for what is supposed to happen after a president dies in office, and what little language could be used to justify a result is to ambiguous to be used for certain. Congress is in a full-blown lockdown.</p>
 
-    <p></p>
+    <p>Under all the pressure in the country, one representative finally has a stroke of genius. Representative Philip R. Thompson realizes that even without a President, Amendments to the Constitution can still be passed. Subsequently, the 13th Amendment, which specifies that the Vice President will adopt the position of Acting President (which leaves the presidential office vacant) if a President is removed or dies in office, is passed and ratified swiftly.</p>
 
     <a href="#page2" class="next-button">Next →</a>
   </div>
