@@ -96,7 +96,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p><h3>It didn't feel like real life.</h2></p>\n\n<p>On the 36th ballot, Aaron Burr had pushed on to the finish line.</p>\n\n<table>\n  <tr>\n    <th>Burr</th>\n    <th>Jefferson</th>\n    <th>Blank</th>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>6</td>\n    <td>1</td>\n  </tr>\n  <tr>\n  </tr>\n</table>\n\n<p>Thomas Jefferson was left with the award that second place brings: the Vice Presidency</p>\n\n<p>Now, Burr must work with Jefferson and give him influence in the administration, or else he should expect to face him in the next presidential election.",
+            "description_as_running_mate": "<p><h3>It didn't feel like real life.</h2></p>\n\n<p>On the 36th ballot, Aaron Burr had pushed on to the finish line.</p>\n\n<table>\n  <tr>\n    <th>Burr</th>\n    <th>Jefferson</th>\n    <th>Blank</th>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>6</td>\n    <td>1</td>\n  </tr>\n  <tr>\n  </tr>\n</table>\n\n<p>Thomas Jefferson was left with the award that second place brings: the Vice Presidency.</p>\n\n<p>Now, Burr must work with Jefferson and give him influence in the administration, or else he should expect to face him in the next presidential election.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -452,7 +452,7 @@ const trackImages = [
     "https://upload.wikimedia.org/wikipedia/en/3/38/Soundtrack_From_Twin_Peaks.jpg", // Twin Peaks - Angelo Badalamenti
     "https://upload.wikimedia.org/wikipedia/en/0/02/Radioheadkida.png", // Everything - Radiohead
     "https://upload.wikimedia.org/wikipedia/en/5/5b/Hamilton_cast_recording_cover.jpeg", // The Room Where It Happens - Hamilton Original Cast
-    "https://files.catbox.moe/shgaw1.jfif", // Going to California - Led Zeppelin
+    "https://upload.wikimedia.org/wikipedia/en/3/34/SurferRosa.jpg", // Gigantic - Pixies
 ];
 
 function getTrackImage(trackIdx) {
@@ -496,7 +496,6 @@ function newMusicPlayer() {
     // Main container
     let merged = document.createElement("div");
     merged.id = "musicPlayerMerged";
-    merged.style.fontFamily = "stardom, sans-serif";
     merged.style.color = "white";
     merged.style.display = "flex";
     merged.style.flexDirection = "row";
@@ -847,8 +846,8 @@ var soundtracks = {
                 "url": "https://audio.jukehost.co.uk/oKaGKquFnFWBXCIGJro6nQmqaLjzmN8Q"
             },
             {
-                "name": "Going to California - Led Zeppelin",
-                "url": "https://files.catbox.moe/gdjkim.opus"
+                "name": "Gigantic - Pixies",
+                "url": "https://audio.jukehost.co.uk/lXwCfeZflGLkzsENcinu4lJETtOoDlr6"
             }
         ]
     }
@@ -1026,8 +1025,21 @@ input {
       {searchString: "Federalists", explanationText: "<img src=https://i.imgur.com/6GVUSPT.png> "},
       {searchString: "Democratic-Republican", explanationText: "<img src=https://i.imgur.com/An3xlM2.png> "},
       {searchString: "Democratic-Republicans", explanationText: "<img src=https://i.imgur.com/An3xlM2.png> "},
+      // Q2
       {searchString: "Madison", explanationText: "<img src=https://i.imgur.com/pHz7jhw.png> "},
       {searchString: "Rufus King", explanationText: "<img src=https://i.imgur.com/cpg1BFA.png> "},
+      // Q3
+      {searchString: "United States", explanationText: "<img src=https://i.imgur.com/vkwYk3k.png> "},
+      {searchString: "President", explanationText: "<img src=https://i.imgur.com/JFs1Bph.png> "},
+      {searchString: "president", explanationText: "<img src=https://i.imgur.com/JFs1Bph.png> "},
+      // Q4
+      {searchString: "financial system", explanationText: "<img src=https://i.imgur.com/zTMeYOs.png> "},
+      // Q5
+      {searchString: "Congress", explanationText: "<img src=https://i.imgur.com/zxrG22V.png> "},
+      {searchString: "Sedgwick", explanationText: "<img src=https://i.imgur.com/0U7M3Uk.png> "},
+      {searchString: "Macon", explanationText: "<img src=https://i.imgur.com/LQCETFg.png> "},
+      {searchString: "Tripoli", explanationText: "<img src=https://i.imgur.com/pbCF57R.png> "},
+
 
     ];
 
