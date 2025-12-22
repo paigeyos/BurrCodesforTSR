@@ -857,6 +857,74 @@ var soundtracks = {
 
 newMusicPlayer()
 
+campaignTrail_temp.achievements = {
+  
+  "Before The Fall" : {
+  "image" : "https://i.imgur.com/LRHoTL9.png",
+  "description" : "As Aaron Burr, don't make history.",
+  "cannotBeCheated" : true
+  },
+
+  "Don't Sink" : {
+    "image" : "https://i.imgur.com/DWoYvoy.png",
+    "description" : "As Aaron Burr, avoid warfare.",
+    "cannotBeCheated" : true
+    },
+
+  "It Must Be Nice" : {
+    "image" : "https://i.imgur.com/1Lodx9g.png",
+    "description" : "As Aaron Burr, face off against a Tomcat.",
+    "cannotBeCheated" : true
+    },
+
+  "Fallback" : {
+    "image" : "https://i.imgur.com/gg5fidF.png",
+    "description" : "As Aaron Burr, face off against a Librarian.",
+    "cannotBeCheated" : true
+    },
+
+  "Yankee Doodle" : {
+    "image" : "https://i.imgur.com/Xc3M9RQ.png",
+    "description" : "As Aaron Burr, face off against a Major.",
+    "cannotBeCheated" : true
+    },
+
+  "Sentence" : {
+    "image" : "https://i.imgur.com/ryp0yad.png",
+    "description" : "As Aaron Burr, face off against a Judge.",
+    "cannotBeCheated" : true
+    },
+
+  "Life, Liberty, And The Pursuit Of Happiness" : {
+    "image" : "https://i.imgur.com/AoWsRcf.png",
+    "description" : "As Aaron Burr, face off against your Partner.",
+    "cannotBeCheated" : true
+    },
+
+  "The World Was Wide Enough" : {
+    "image" : "https://i.imgur.com/zhgvrIu.png",
+    "description" : "As Aaron Burr, change the world.",
+    "cannotBeCheated" : true
+    },
+
+  "Wood Door Squeak 3" : {
+    "image" : "https://i.imgur.com/d8fFtAT.png",
+    "description" : "As Aaron Burr, make it about you.",
+    "cannotBeCheated" : true
+    },
+
+  "First Time For Everything" : {
+    "image" : "https://i.imgur.com/M76aAzc.png",
+    "description" : "As Aaron Burr, be remembered as a failed experiment.",
+    "cannotBeCheated" : true
+    },
+
+  "Evil Man" : {
+    "image" : "https://i.imgur.com/KDbZQVr.png",
+    "description" : "As Aaron Burr, take over.",
+    "cannotBeCheated" : true
+    },
+}
 
 //#startcode
 
@@ -871,6 +939,16 @@ e.ElectionPopup = "Time's up, Mr. President."
 e.WinPopup = "History has its eyes on you."
 e.LosePopup = "Now I’m the villain in your history."
 e.SelAnsContText = "Please make your decision, Mr. President."
+
+campaignTrail_temp.modBoxTheme = {
+     "header_color": "#151515",
+     "header_text_color": "#ffffff",
+     "description_text_color": "#000000",
+     "description_background_color": "#ffffff",
+     "main_color": "#1c1c1c",
+     "secondary_color": "#151515",
+     "ui_text_color": "#FFFFFF"
+}
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#151515";

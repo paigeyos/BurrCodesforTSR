@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14567,
         "fields": {
             "priority": 3,
-            "description": "Hamilton is shaping up to be your enemy in the 1804 election, and he should not be taken lightly at all. Now that your president, you have inherited his financial system, which has been through the Democratic-Republican meat grinder a million times now. To what extent are you planning to repeal this system?",
+            "description": "Hamilton is shaping up to be your enemy in the 1804 election, and he should not be taken lightly at all. Now that you're president, you have inherited his financial system, which has been through the Democratic-Republican meat grinder a million times now. To what extent are you planning to repeal this system?",
             "likelihood": 1
         }
     },
@@ -1800,7 +1800,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 133,
             "state": 392,
-            "state_multiplier": 1.95
+            "state_multiplier": 2
         }
     },
     {
@@ -2690,7 +2690,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 399,
             "candidate": 131,
             "affected_candidate": 131,
-            "state_multiplier": -0.0035
+            "state_multiplier": 0.0035
         }
     },
     {
@@ -2712,7 +2712,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 407,
             "candidate": 131,
             "affected_candidate": 131,
-            "state_multiplier": -0.01
+            "state_multiplier": -0.0045
         }
     },
     {
@@ -2778,7 +2778,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 407,
             "candidate": 14582,
             "affected_candidate": 14582,
-            "state_multiplier": 0.25
+            "state_multiplier": -0.025
         }
     },
     {
@@ -2800,7 +2800,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 407,
             "candidate": 14582,
             "affected_candidate": 14582,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.035
         }
     },
     {
@@ -2845,6 +2845,50 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 131,
             "affected_candidate": 131,
             "state_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 14657,
+        "fields": {
+            "answer": 14639,
+            "state": 392,
+            "candidate": 131,
+            "affected_candidate": 131,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 14658,
+        "fields": {
+            "answer": 14578,
+            "state": 407,
+            "candidate": 131,
+            "affected_candidate": 131,
+            "state_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 14659,
+        "fields": {
+            "answer": 14578,
+            "state": 392,
+            "candidate": 131,
+            "affected_candidate": 131,
+            "state_multiplier": 0.0025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 14661,
+        "fields": {
+            "answer": 14549,
+            "state": 392,
+            "candidate": 131,
+            "affected_candidate": 131,
+            "state_multiplier": -0.015
         }
     }
 ]
@@ -3007,6 +3051,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 
  if(quickstats[0] == 120) {
         setImage("https://i.imgur.com/JNjNJYL.png");
+        unlockAchievement("Evil Man");
         return `<style>
   .ending-scroll {
     max-height: 260px;
@@ -3142,6 +3187,7 @@ endingPicker = (out, totv, aa, quickstats) => {
     }
     if(quickstats[0] > 90) {
         setImage("https://i.imgur.com/7E99RjT.png");
+        unlockAchievement("Wood Door Squeak 3");
         return `<style>
   .ending-scroll {
     max-height: 260px;
@@ -3274,9 +3320,11 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 
 `;
+
     }
     if(quickstats[0] == 89) {
         setImage("https://i.imgur.com/93GA1cX.png");
+        unlockAchievement("First Time For Everything");
         return `<style>
   .ending-scroll {
     max-height: 260px;
@@ -3562,4 +3610,4 @@ cyoAdventure = function (a) { if (ans == 14499) {  campaignTrail_temp.questions_
     
     applyTooltipsToObject(campaignTrail_temp.questions_json);
     applyTooltipsToObject(campaignTrail_temp.answers_json);
-    applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);  
+    applyTooltipsToObject(campaignTrail_temp.answer_feedback_json); 
