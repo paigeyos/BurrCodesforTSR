@@ -1,3 +1,4 @@
+
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -12,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 14548,
         "fields": {
-            "priority": 1,
+            "priority": 0,
             "description": "It's everywhere. In every newspaper, in every mind, everyone knows that you are the next President of the United States. Now, you must select who your Secretary of State will be.\n\n",
             "likelihood": 1
         }
@@ -21,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 14562,
         "fields": {
-            "priority": 2,
+            "priority": 0,
             "description": "It seems like a dream. It seemed like a dream. From the 36 ballots to now it has felt like a dream. Today is March 4, 1801, your inauguration.",
             "likelihood": 1
         }
@@ -30,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 14567,
         "fields": {
-            "priority": 3,
+            "priority": 0,
             "description": "Hamilton is shaping up to be your enemy in the 1804 election, and he should not be taken lightly at all. Now that you're president, you have inherited his financial system, which has been through the Democratic-Republican meat grinder a million times now. To what extent are you planning to repeal this system?",
             "likelihood": 1
         }
@@ -39,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 14633,
         "fields": {
-            "priority": 4,
+            "priority": 0,
             "description": "Congress, though known to be irritating to work with, is actually in a pretty good makeup for the way you have positioned yourself in the political world. With this development, what policy do you want to work on, if any?",
             "likelihood": 1
         }
@@ -48,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 14654,
         "fields": {
-            "priority": 5,
+            "priority": 0,
             "description": 0,
             "likelihood": 1
         }
@@ -2990,7 +2991,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14637,
             "candidate": 131,
-            "answer_feedback": "You reach an agreement with Sedgewick and Macon, hammering out the \"Military Peace Establishment Act\", which establishes the United States Military Academy in West Point. "
+            "answer_feedback": "You reach an agreement with Sedgwick and Macon, hammering out the \"Military Peace Establishment Act\", which establishes the United States Military Academy in West Point. "
         }
     },
     {
@@ -3061,6 +3062,10 @@ endingPicker = (out, totv, aa, quickstats) => {
     border-radius: 8px; /* rounded corners */
     box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
     color: black; /* all text black by default */
+  }
+
+  #page1 .ending-scroll {
+    font-family: "Miller", "Miller Text", "Times New Roman", serif;
   }
 
   .ending-page {
@@ -3165,13 +3170,17 @@ endingPicker = (out, totv, aa, quickstats) => {
     <img src="https://i.imgur.com/UhC6Ju3.png" alt="23rd Prime Minister Al Gore" style="width:695px;height:236px;">
 
 
-    <p><h5><span style="color:#0000EE;">Jeffrey Toobin</span> | CNN / November 27, 2000 - 10:19 p.m.</h5></p>
+    <p><h5><span style="color:#0000EE;">Jeffrey Toobin</span> | CNN / June 27, 1997 - 12:19 a.m.</h5></p>
 
-    <p>20 days after polls closed, the Outer Indianapolis seat of the House of Commons has been called for incumbent Jim Jontz, giving the New Democratic Party a minority government.</p>
+    <p>The New Democratic Party will have a minority government in the US House of Commons, making Al Gore the 23rd Prime Minister of the United States.</p>
 
-    <p>"Burr" tells the story of the 3rd President Aaron Burr's involvement in the Revolutionary War, his rivalry with Alexander Hamilton, his Presidency, and his end.</p>
+    <p>We are able to make this call after the Associated Press called the Outer Indianapolis seat of the House of Commons for Jim Jontz, giving New Democrats a 1 seat plurality over the Conservative Party.</p>
 
-    <p>The show did live up to its hype. "Burr" won big at the 2016 Tony Awards. Ten years into its run, the show is still going strong. The album continues to be a best-seller, while both the Broadway and touring productions remain popular. Songs like "Mr. President" and "The Room Where It Happens" still appear in the charts to this day. In 2025, "Burr" was added to the Library of Congress' National Recording Registry.</p>
+    <p>Gore, who has served as a Member of Parliament for 16 years and in various leadership positions under the Harkin Administration, has put forth a very detailed climate plan that he hopes to enact during his time in office.</p>
+
+    <p>We expect Gore to come on stage and give a speech in the next hour. Kemp has already conceded the race as of 12:13 tonight.</p>
+
+    <p><small>This article is in the following archive: 1997 United States General Election</small></p>
 
     <a href="#page2" class="next-button">Next →</a>
   </div>
@@ -3185,7 +3194,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 `;
     }
-    if(quickstats[0] > 90) {
+    if(quickstats[0] == 100) {
         setImage("https://i.imgur.com/7E99RjT.png");
         unlockAchievement("Wood Door Squeak 3");
         return `<style>
@@ -3305,9 +3314,11 @@ endingPicker = (out, totv, aa, quickstats) => {
 
     <p>When the historical musical "Burr" premiered on Broadway on Aug. 6, 2015, it almost immediately revolutionized Broadway.</p>
 
-    <p>"Burr" tells the story of the 3rd President Aaron Burr's involvement in the Revolutionary War, his rivalry with Alexander Hamilton, his Presidency, and his end.</p>
+    <p>"Burr" tells the story of the 3rd President Aaron Burr's involvement in the Revolutionary War, his rivalry with Alexander Hamilton, his Presidency, and his end. Narrated by Hamilton, it includes many historical figures such a Washington, Jefferson, and Pickney.</p>
 
-    <p>The show did live up to its hype. "Burr" won big at the 2016 Tony Awards. Ten years into its run, the show is still going strong. The album continues to be a best-seller, while both the Broadway and touring productions remain popular. Songs like "Mr. President" and "The Room Where It Happens" still appear in the charts to this day. In 2025, "Burr" was added to the Library of Congress' National Recording Registry.</p>
+    <p>The show did live up to its hype. "Burr" won big at the 2016 Tony Awards, and has had songs in the charts for its entire lifespan.</p>
+    
+    <p>Ten years into its run, the show is still going strong. The album continues to be a best-seller, while both the Broadway and touring productions remain popular. Songs like "Mr. President" and "The Room Where It Happens" still appear in the charts to this day. In 2025, "Burr" was added to the Library of Congress' National Recording Registry.</p>
 
     <a href="#page2" class="next-button">Next →</a>
   </div>
@@ -3468,9 +3479,288 @@ endingPicker = (out, totv, aa, quickstats) => {
 `;
 
     }
-    if(quickstats[0] < 88) {
-        setImage("");
-        return `sucks`;
+ if (campaignTrail_temp.player_answers[1] == 14549 && quickstats[0] == 81) {
+        setImage("https://i.imgur.com/kRd38fj.png");
+        unlockAchievement("Going Home");
+        return `<style>
+  .ending-scroll {
+    max-height: 260px;
+    overflow-y: scroll;
+    padding: 20px; /* for readability */
+    background-color: white; /* white box background */
+    border-radius: 8px; /* rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+    color: black; /* all text black by default */
+  }
+
+  #page1 .ending-scroll {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #FFFAF0;
+  }
+
+  .ending-page {
+    display: none;
+  }
+
+  /* Page 1 shows by default */
+  #page1 {
+    display: block;
+  }
+
+  /* Show targeted page */
+  .ending-page:target {
+    display: block;
+  }
+
+  /* Hide page 1 when page 2 is active */
+  #page2:target ~ #page1 {
+    display: none;
+  }
+
+  .next-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 12px;
+    border: 1px solid #444;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: #f0f0f0;
+  }
+
+  .next-button:hover {
+    background-color: #ddd;
+  }
+</style>
+
+<!-- PAGE 2 MUST COME FIRST -->
+<div id="page2" class="ending-page">
+  <div class="ending-scroll">
+<table border="1" style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
+<thead style="background-color: #f2f2f2;">
+    
+<p><img src="https://i.imgur.com/Q8986nP.png" alt="Old Faithful" style="width:159px;height:32px;"></p>
+
+    <tr>
+      <th>No.</th>
+      <th>Portrait</th>
+      <th>President</th>
+      <th>Term</th>
+      <th>Party</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h4>1<h4></td>
+      <td><img src="https://i.imgur.com/j6wlnBU.png" alt="Washington" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/George_Washington">George Washington</a></td>
+      <td>1789–1797</td>
+      <td>Independent</td>
+    </tr>
+    <tr>
+      <td><h4>2<h4></td>
+      <td><img src="https://i.imgur.com/88V56NT.png" alt="Adams" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/John_Adams">John Adams</a></td>
+      <td>1797–1801</td>
+      <td>Federalist</td>
+    </tr>
+    <tr>
+      <td><h4>3<h4></td>
+      <td><img src="https://i.imgur.com/xNFD9KL.png" alt="Burr" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/Aaron_Burr">Aaron Burr</a></td>
+      <td>1801–1805</td>
+      <td>Democratic-Republican</td>
+    </tr>
+    <tr>
+      <td><h4>4<h4></td>
+      <td><img src="https://i.imgur.com/xNFD9KL.png" alt="Hamilton" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/Alexander_Hamilton">Alexander Hamilton</a></td>
+      <td>1805–1813</td>
+      <td>Federalist</td>
+    </tr>
+    <tr>
+      <td><h4>5<h4></td>
+      <td><img src="https://i.imgur.com/JJPriex.png" alt="Madison" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/James_Madison">James Madison</a></td>
+      <td>1813–1817</td>
+      <td>Democratic-Republican</td>
+    </tr>
+  </tbody>
+</table>
+
+    <a href="#page1" class="next-button">← Back</a>
+  </div>
+</div>
+
+<!-- PAGE 1 -->
+<div id="page1" class="ending-page">
+  <div class="ending-scroll">
+    <p><h2>To Alexander Hamilton</h2></p>
+
+    <p>I have received your letter conveying the decision to nominate me to the office of Secretary of State. After due reflection, I accept this appointment, and do so with a full sense of the obligations it entails.</p>
+
+    <p>The recent contest for the Presidency has been conducted with a fervor that speaks to the vitality of our young republic, though not without personal cost to those engaged in it. That I was unsuccessful in that endeavor is a matter now settled.</p>
+
+    <p>That you, Sir, whose differences with me have been both public and profound, should judge me fit to serve the nation in so high a diplomatic capacity, is an act I cannot receive lightly. I take it as evidence that, however our divisions in philosophy, we are united by a common concern for the stability, dignity, and future greatness of the United States.</p>
+
+    <p>I do not pretend that this appointment effaces the past, nor that it reconciles every difference between us. But it does offer opportunities for service and continued prosperity of our great nation. I choose to accept this one.</p>
+
+<p><b>A. Burr</b></p>
+
+    <a href="#page2" class="next-button">Next →</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+`;
+
+    }
+ if (quickstats[0] == 81) {
+        setImage("https://i.imgur.com/kRd38fj.png");
+        return `<style>
+  .ending-scroll {
+    max-height: 260px;
+    overflow-y: scroll;
+    padding: 20px; /* for readability */
+    background-color: white; /* white box background */
+    border-radius: 8px; /* rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+    color: black; /* all text black by default */
+  }
+
+  #page1 .ending-scroll {
+    color: white;
+    background-color: #151515;
+  }
+
+  .ending-page {
+    display: none;
+  }
+
+  /* Page 1 shows by default */
+  #page1 {
+    display: block;
+  }
+
+  /* Show targeted page */
+  .ending-page:target {
+    display: block;
+  }
+
+  /* Hide page 1 when page 2 is active */
+  #page2:target ~ #page1 {
+    display: none;
+  }
+
+  .next-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 12px;
+    border: 1px solid #444;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: #f0f0f0;
+  }
+
+  .next-button:hover {
+    background-color: #ddd;
+  }
+</style>
+
+<!-- PAGE 2 MUST COME FIRST -->
+<div id="page2" class="ending-page">
+  <div class="ending-scroll">
+<table border="1" style="border-collapse: collapse; width: 100%; text-align: left; font-family: Arial, sans-serif;">
+<thead style="background-color: #f2f2f2;">
+    
+<p><img src="https://i.imgur.com/Q8986nP.png" alt="Old Faithful" style="width:159px;height:32px;"></p>
+
+    <tr>
+      <th>No.</th>
+      <th>Portrait</th>
+      <th>President</th>
+      <th>Term</th>
+      <th>Party</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h4>1<h4></td>
+      <td><img src="https://i.imgur.com/j6wlnBU.png" alt="Washington" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/George_Washington">George Washington</a></td>
+      <td>1789–1797</td>
+      <td>Independent</td>
+    </tr>
+    <tr>
+      <td><h4>2<h4></td>
+      <td><img src="https://i.imgur.com/88V56NT.png" alt="Adams" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/John_Adams">John Adams</a></td>
+      <td>1797–1801</td>
+      <td>Federalist</td>
+    </tr>
+    <tr>
+      <td><h4>3<h4></td>
+      <td><img src="https://i.imgur.com/xNFD9KL.png" alt="Burr" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/Aaron_Burr">Aaron Burr</a></td>
+      <td>1801–1805</td>
+      <td>Democratic-Republican</td>
+    </tr>
+    <tr>
+      <td><h4>4<h4></td>
+      <td><img src="https://i.imgur.com/xNFD9KL.png" alt="Hamilton" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/Alexander_Hamilton">Alexander Hamilton</a></td>
+      <td>1805–1809</td>
+      <td>Federalist</td>
+    </tr>
+    <tr>
+      <td><h4>5<h4></td>
+      <td><img src="https://i.imgur.com/JJPriex.png" alt="Madison" style="width:60px;"></td>
+      <td><a href="https://en.wikipedia.org/wiki/James_Madison">James Madison</a></td>
+      <td>1809–1817</td>
+      <td>Democratic-Republican</td>
+    </tr>
+  </tbody>
+</table>
+
+    <a href="#page1" class="next-button">← Back</a>
+  </div>
+</div>
+
+<!-- PAGE 1 -->
+<div id="page1" class="ending-page">
+  <div class="ending-scroll">
+    <img src="https://i.imgur.com/6mfKlnF.png" alt="Old Faithful" style="width:695px;height:236px;">
+
+    <p><h2>The Original Douchebag</h2></p>
+
+    <p><h3>The first excerpt from <i>The Time Never Comes</i></h3></p>
+
+    <p><h3>By Ken Burns</h3></p>
+
+    <p>Hamilton, being the man he was, decided to Gallivant around Washington DC, bragging about every little detail he could think up. Some call Hamilton "The Original Douchebag" for this reason, but I think that the title should go to none other than Judas.</p>
+
+    <p>Finally, the man was inaugurated, gave his speech, and began life as President. We've learned from letters before his presidency that he never truly expected to even run for President, but now here he was. A war vet, a Founding Father, and a President.</p>
+
+    <p>Let's just say, people quickly started to hate the guy. In the beginning, prices rose, trade died, and the republic seemed to be in danger. But then, everything changed.</p>
+
+    <a href="#page2" class="next-button">Next →</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+`;
+
     }
 }
 
@@ -3544,7 +3834,7 @@ return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
 
 }
 
-cyoAdventure = function (a) { if (ans == 14499) {  campaignTrail_temp.questions_json[6] = tunnel(14654);
+cyoAdventure = function (a) { if (ans == 14499) {  campaignTrail_temp.questions_json[3] == tunnel(14654);
 
 }
 

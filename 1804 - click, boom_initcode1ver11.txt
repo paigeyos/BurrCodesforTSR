@@ -895,7 +895,7 @@ campaignTrail_temp.achievements = {
     "cannotBeCheated" : true
     },
 
-  "Life, Liberty, And The Pursuit Of Happiness" : {
+  "Pursuit Of Happiness" : {
     "image" : "https://i.imgur.com/AoWsRcf.png",
     "description" : "As Aaron Burr, face off against your Partner.",
     "cannotBeCheated" : true
@@ -922,6 +922,18 @@ campaignTrail_temp.achievements = {
   "Evil Man" : {
     "image" : "https://i.imgur.com/KDbZQVr.png",
     "description" : "As Aaron Burr, take over.",
+    "cannotBeCheated" : true
+    },
+
+  "Wait For It" : {
+    "image" : "https://i.imgur.com/B65ZdHi.png",
+    "description" : "As Aaron Burr, walk the line to victory.",
+    "cannotBeCheated" : true
+    },
+    
+  "Going Home" : {
+    "image" : "https://i.imgur.com/vbMzcTi.png",
+    "description" : "As Aaron Burr, reconcile an old friendship.",
     "cannotBeCheated" : true
     },
 }
