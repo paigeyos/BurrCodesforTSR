@@ -1,11 +1,10 @@
-
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
         "pk": 14474,
         "fields": {
             "priority": 0,
-            "description": "Let's take a step back - it is February of 1801. The 36th ballot of the 1801 contingent presidential election is about to happen, and it's shaping up to be the final one. With Hamilton refusing to endorse you or Jefferson, which demographic will you try to connect with to win the presidency?",
+            "description": "It is February of 1801. The 36th ballot of the contingent election is about to happen, and it's starting to seem like it will be the final ballot. With Hamilton refusing to endorse you or Jefferson, which group of representatives will you try to negotiate with to win the presidency?",
             "likelihood": 1
         }
     },
@@ -14,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14548,
         "fields": {
             "priority": 0,
-            "description": "It's everywhere. In every newspaper, in every mind, everyone knows that you are the next President of the United States. Now, you must select who your Secretary of State will be.\n\n",
+            "description": "Everyone across the nation knows that you will be the next President of the United States. From Georgia to New Hampshire, from Richmond to Boston, they know that you're headed to the District of Columbia in less than a month. A list of potential Secretary of State nominees sits at your desk, and you've finally taken the time to look at it. Please pick a Secretary of State.\n",
             "likelihood": 1
         }
     },
@@ -32,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14567,
         "fields": {
             "priority": 0,
-            "description": "Hamilton is shaping up to be your enemy in the 1804 election, and he should not be taken lightly at all. Now that you're president, you have inherited his financial system, which has been through the Democratic-Republican meat grinder a million times now. To what extent are you planning to repeal this system?",
+            "description": "Hamilton is shaping up to be your enemy in the 1804 election, and taking him lightly would be a massive mistake. Now that you're president, you've been tasked with deciding the future of his financial system. How much are you planning to remove from this system while you're in office?",
             "likelihood": 1
         }
     },
@@ -41,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14633,
         "fields": {
             "priority": 0,
-            "description": "Congress, though known to be irritating to work with, is actually in a pretty good makeup for the way you have positioned yourself in the political world. With this development, what policy do you want to work on, if any?",
+            "description": "Congress, though known to be irritating to work with, is actually in a pretty good makeup for the way you have positioned yourself in the political world. Are there any big pieces of legislation you would like to see worked on while this opportunity is still around?",
             "likelihood": 1
         }
     },
@@ -50,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14654,
         "fields": {
             "priority": 0,
-            "description": 0,
+            "description": "John Adams. A name you've heard ov",
             "likelihood": 1
         }
     }
@@ -62,7 +61,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14498,
         "fields": {
             "question": 14474,
-            "description": "The Federalists up north. We need to build this coalition in normally unusual places for a Democratic-Republican, and that means flipping states like Vermont and New York on this ballot."
+            "description": "The Federalists up north. We need to build this coalition in unusual places for a Democratic-Republican, and that means flipping states like Vermont and New York on this ballot. I also can't lose the support of Federalists over my presidency, especially with the lack of Hamilton's endorsement."
         }
     },
     {
@@ -70,7 +69,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14499,
         "fields": {
             "question": 14474,
-            "description": "Democratic-Republicans down south. We can outflank Jefferson on his own ground and flip states like North Carolina and Tennessee while holding our ground in South Carolina."
+            "description": "Democratic-Republicans down south. We can outflank Jefferson on his own ground and flip states like North Carolina and Tennessee while holding our ground in South Carolina, making me seem like a true member of this party."
         }
     },
     {
@@ -78,7 +77,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14500,
         "fields": {
             "question": 14474,
-            "description": "The contested states in Appalachia. If we can win the delegates in states like New Jersey and Maryland, we can win this election."
+            "description": "The contested states in Appalachia. If we can win the delegates in states like New Jersey and Maryland, we can make these key electoral states more friendly to me while still winning me the presidency."
         }
     },
     {
@@ -118,7 +117,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14568,
         "fields": {
             "question": 14567,
-            "description": "All the way. This system is the work of a madman and it needs to be repealed as soon as possible, and I want our own system in its place."
+            "description": "All the way. This system is the work of a madman and it needs to be repealed as soon as possible. Get Macon to meet with members of Congress to try and get this mess of a system out."
         }
     },
     {
@@ -158,7 +157,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14639,
         "fields": {
             "question": 14633,
-            "description": "Let's hold off on any big policy positions for now. I don't want to seem like a pushover."
+            "description": "Let's hold off on any big policy positions for now. I don't want to seem like a pushover this early on."
         }
     },
     {
@@ -166,7 +165,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14640,
         "fields": {
             "question": 14633,
-            "description": "We need to work on the situation on the Barbary Coast. See if we can hammer out a deal with the Tripoli and have Congress approve it before we are in an all out war."
+            "description": "We need to work on the situation on the Barbary Coast. See if we can hammer out a deal with the Tripoli and have Congress approve it before we are a nation at war."
         }
     },
     {
@@ -2326,41 +2325,11 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 14552,
-        "fields": {
-            "answer": 14549,
-            "issue": 47,
-            "issue_score": 0.4,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 14553,
-        "fields": {
-            "answer": 14550,
-            "issue": 47,
-            "issue_score": -0.6,
-            "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 14556,
-        "fields": {
-            "answer": 14555,
-            "issue": 47,
-            "issue_score": 0.6,
-            "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 14573,
         "fields": {
             "answer": 14571,
             "issue": 51,
-            "issue_score": -0.65,
+            "issue_score": -0.85,
             "issue_importance": 5
         }
     },
@@ -2391,6 +2360,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 14638,
             "issue": 47,
             "issue_score": -0.5,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 14662,
+        "fields": {
+            "answer": 14549,
+            "issue": 50,
+            "issue_score": -0.6,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 14663,
+        "fields": {
+            "answer": 14549,
+            "issue": 51,
+            "issue_score": -0.45,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 14664,
+        "fields": {
+            "answer": 14550,
+            "issue": 50,
+            "issue_score": 0.6,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 14665,
+        "fields": {
+            "answer": 14555,
+            "issue": 50,
+            "issue_score": -0.2,
             "issue_importance": 3
         }
     }
@@ -2482,7 +2491,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 392,
             "candidate": 131,
             "affected_candidate": 131,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.0015
         }
     },
     {
@@ -2901,7 +2910,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14498,
             "candidate": 131,
-            "answer_feedback": "Congratulations, President-Elect Burr. You successfully swayed the State Delegations of VT, NY, NJ, DE, and MD, giving you 9 votes to Jefferson's 6."
+            "answer_feedback": "Congratulations, President-Elect Burr. You successfully swayed the State Delegations of VT, NY, NJ, DE, and MD, giving you 9 votes to Jefferson's 6. You have agreed to not repeal key Federalist policies as a sort of quid pro quo for the presidency."
         }
     },
     {
@@ -2910,7 +2919,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14499,
             "candidate": 131,
-            "answer_feedback": "Congratulations, President-Elect Burr. You successfully swayed the State Delegations of SC, NC, TN, NJ, and NY, giving you 9 votes to Jefferson's 6."
+            "answer_feedback": "Congratulations, President-Elect Burr. You successfully swayed the State Delegations of SC, NC, TN, NJ, and NY, giving you 9 votes to Jefferson's 6. You have agreed to repeal some key Federalist policies and work with Democratic-Republicans during your time in office."
         }
     },
     {
@@ -2928,7 +2937,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14549,
             "candidate": 131,
-            "answer_feedback": "Hamilton turns down the opportunity, and even though he won't say it, you know he's planning to run against you in 1804. In Hamilton's place you nominate John Marshall. Jefferson is livid to learn that you considered Hamilton for the job, and even more so that you gave it to Marshall once he turned it down."
+            "answer_feedback": "Hamilton turns down the opportunity, and even though he won't say it, you know he's planning to run against you in 1804. In Hamilton's place you nominate James Hillhouse. Jefferson is livid to learn that you considered Hamilton for the job, and even more so that you gave it to Hillhouse once he turned it down."
         }
     },
     {
@@ -2964,7 +2973,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14568,
             "candidate": 131,
-            "answer_feedback": "The repeal passes the House, but is blocked in the Senate, with even a few Democratic-Republicans voting against it. Lucky for you though, the bill is stripped down to just a repeal of the whiskey tax (which is wildly unpopular) and some key parts of your proposed replacement system."
+            "answer_feedback": "Macon convinces a few Representatives to join him and propose a repeal which passes the House, but is blocked in the Senate. Lucky for you though, the bill is reintroduced as just a repeal of the whiskey tax (which is wildly unpopular), making those unaware of your previous actions actually quite happy with the work that they think you've done."
         }
     },
     {
@@ -2973,7 +2982,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14571,
             "candidate": 131,
-            "answer_feedback": "Jefferson is unsurprisingly pissed off by this, and bothers you for days about it. A full repeal is introduced with the support of Jefferson, and it passes the House, but is blocked by the Senate."
+            "answer_feedback": "Jefferson stays behind in the meeting room after you announce this decision to the rest of your cabinet to express his anger towards you. He calls you things ranging from \"imbecile\" to \"so-called president\" as he finally walks out of the room. Federalists are left happy with the decision."
         }
     },
     {
@@ -2982,7 +2991,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14578,
             "candidate": 131,
-            "answer_feedback": "Jefferson is surprised by this, but is very happy that you allow him to take the reins here. He pulls through and gets a repeal of the whiskey tax and other unpopular policies on your desk in no time. "
+            "answer_feedback": "Jefferson pulls through and gets a repeal of the whiskey tax and other unpopular policies on your desk in no time. The only one left angry about this is Hamilton, who publishes \"On the Repealing of My Economic Program\" in just a few days, which goes on and on for 44 pages about how this decision will destroy the republic."
         }
     },
     {
@@ -2991,7 +3000,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14637,
             "candidate": 131,
-            "answer_feedback": "You reach an agreement with Sedgwick and Macon, hammering out the \"Military Peace Establishment Act\", which establishes the United States Military Academy in West Point. "
+            "answer_feedback": "Despite Jefferson's wariness on this route, you reach an agreement with Sedgwick and Macon, hammering out the \"Military Peace Establishment Act\", which establishes the United States Military Academy in West Point. "
         }
     },
     {
