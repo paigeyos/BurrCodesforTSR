@@ -52,7 +52,25 @@ campaignTrail_temp.questions_json = [
             "description": "John Adams. A name you've heard ov",
             "likelihood": 1
         }
-    }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 14534,
+        "fields": {
+            "priority": 0,
+            "description": "Like a axe hanging over a condemmed criminal, the shadow of France looms large over your administration. The British, sensing blood in the water from your friendly choice of State Secretary, have renewed their push for concessions from the Republic and pushing you to scorn Napoleon and the French nation. However, Vice President Jefferson looks in horror at any quarter with the Britishm and pushes for stronger ties with our erstwhile allies, what do you choose? (this will help cyoa into hamilton hating you if you ally with the french, as Hillhouse will sabatoge it)",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 14598,
+        "fields": {
+            "priority": 0,
+            "description": "There he is, on the front of every northern paper. You can practically hear his voice through the pages, insulting you, **mocking** you. All that effort to perhaps rekindle your bonds, destroyed. Now you are left alone. Hamilton has turned on you, Jefferson has been thouroughly scorned, even your own yes men talk in hushed corners about how your 'grand plan' has fallen apart. What, Mr. President, is your move?",
+            "likelihood": 1
+        }
+    },
 ]
 
 campaignTrail_temp.answers_json = [
