@@ -52,7 +52,33 @@ campaignTrail_temp.questions_json = [
             "description": "John Adams. A name you've heard ov",
             "likelihood": 1
         }
-    }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 14534,
+        "fields": {
+            "priority": 0,
+            "description": "Like a axe hanging over a condemmed criminal, the shadow of France looms large over your administration. The British, sensing blood in the water from your friendly choice of State Secretary, have renewed their push for concessions from the Republic and pushing you to scorn Napoleon and the French nation. However, Vice President Jefferson looks in horror at any quarter with the British and pushes for stronger ties with our erstwhile allies, what do you choose?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 14598,
+        "fields": {
+            "priority": 0,
+            "description": "There he is, on the front of every northern paper. You can practically hear his voice through the pages, insulting you, **mocking** you. All that effort to perhaps rekindle your bonds, destroyed. Now you are left alone. Hamilton has turned on you, Jefferson has been thouroughly scorned, even your own yes men talk in hushed corners about how your 'grand plan' has fallen apart. What, Mr. President, is your move?",
+            "likelihood": 1
+        }
+    },    {
+        "model": "campaign_trail.question",
+        "pk": 99999,
+        "fields": {
+            "priority": 0,
+            "description": "?",
+            "likelihood": 1
+        }
+    },
 ]
 
 campaignTrail_temp.answers_json = [
@@ -175,7 +201,63 @@ campaignTrail_temp.answers_json = [
             "question": 14654,
             "description": "placehodlder ans"
         }
-    }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 19999,
+        "fields": {
+            "question": 14534,
+            "description": "As much as Jefferson might kill me, France is simply not a reliable ally. Tell Hillhouse to begin negotiations with the British, though make it clear any concessions are to be run by me. That ought to make Hamilton shut up for a minute."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 19998,
+        "fields": {
+            "question": 14534,
+            "description": "I know what Hillhouse thinks, but I can't just ignore Jefferson. The French were reliable allys during the revolution, and it's time we return the favor. Remind Hillhouse who the president it here, and tell him to open a dialogue with the French."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 19997,
+        "fields": {
+            "question": 14534,
+            "description": "I've about had it with both of them. Just tell Hillhouse to get me a deal and be done with it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 19996,
+        "fields": {
+            "question": 14534,
+            "description": "Both Hillhouse and Jefferson are screaming at me, but do we really have to listen? We can play the British and the French off of one another, and we get the best of both worlds."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 19995,
+        "fields": {
+            "question": 14598,
+            "description": "We need to shut him down now. Get every paper we have publishing all of his most egregious works. The Reynolds Pamphlet, his attacks on Adams, everything we can get our hands on, make ones up if you have to."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 19994,
+        "fields": {
+            "question": 14598,
+            "description": "Ok, this is bad, but we can make this work. With Hamilton on the ticket, hopefully we can reel Jefferson in. Promise him whatever he wants for him to come around, he has to see the danger of a Hamilton presidency."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 19993,
+        "fields": {
+            "question": 14598,
+            "description": "This actually presents an oppurtunity for us. With Hamilton in the race, we can present ourselves as the sensible moderate to Hamilton and the Federalists radicalism."
+        }
+    },
 ]
 
 campaignTrail_temp.states_json = [
@@ -3029,7 +3111,70 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 131,
             "answer_feedback": "In the world of government, this is a major success, as a non-aggression pact is agreed upon and approved by Congress. In the everyday life of an American, this is something they probably don't care about, and probably didn't even know was an issue."
         }
-    }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 29999,
+        "fields": {
+            "answer": 19996,
+            "candidate": 131,
+            "answer_feedback": "True to form, you do your best to stand for nothing, and you fall victim to both. Hillhouse was already unenthused with any prospect of negotiating with the French, and was downright capitulatory to the British. In the end, you get left holding the bag of two rotten deals, bitter and confused."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 29998,
+        "fields": {
+            "answer": 19997,
+            "candidate": 131,
+            "answer_feedback": "Hillhouse obliges, bringing you what can only be described as a letter of capitulation to British intrests. You're almost thankful that Jeffersons threats of resignation and a near revolt of congress make you drop the deal, leaving you with nothing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 29997,
+        "fields": {
+            "answer": 19998,
+            "candidate": 131,
+            "answer_feedback": "It takes a long time. A suspiciously long time. You can't help but get the sense that Hillhouse is playing you for a fool with constant 'updates' of non existent progress which only serves to irritate you further. Eventually the updates stop arriving, but you've tuned them out a long time ago."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 29996,
+        "fields": {
+            "answer": 19999,
+            "candidate": 131,
+            "answer_feedback": "Hillhouse jumps at the oppurtunity, and with you looming over his shoulder, as well as a Hamilton who wants a deal as much as you, a deal actually emerges which gets the British to formally end impressment as well as granting them favored trade over the French in exchange for protecting American shipping across the Atlantic. The grumblings from Jefferson and his clique are quickly overridden by a near unanimous push by the Federalists which sends the bill to your desk."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 29994,
+        "fields": {
+            "answer": 19995,
+            "candidate": 131,
+            "answer_feedback": "Like a well oiled machine, the Republican campaign apparatus fires up. The flames of scorn which one drove Adams from his seat are now fully directed at one man: Hamilton. You can't help but smile watching the lightning fast writer barely able to keep up with the mountain of vitriol thrown against him."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 29993,
+        "fields": {
+            "answer": 19994,
+            "candidate": 131,
+            "answer_feedback": "No Dice. Jefferson might be opposed to the Federalists, but by now the hate between you two is deeply personal. You thankfully manage to extract yourself from the situation before Jefferson gets mad enough to launch his own run."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 29993,
+        "fields": {
+            "answer": 19993,
+            "candidate": 131,
+            "answer_feedback": "Unfortunately for you, you are no David, and Hamilton no Goliath. While you find some modest success in the border states, most of the north just won't budge."
+        }
+    },
 ]
 
     document.head.innerHTML +=`
